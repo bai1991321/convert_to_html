@@ -1,0 +1,2 @@
+[1/17/2019, 8:33:30 PM] layer "+ 45 27 87 11 54": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/17/2019, 8:33:30 PM] layer "Hello@support.com": Unsupported extension: com

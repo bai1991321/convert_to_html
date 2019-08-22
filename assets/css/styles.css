@@ -1,0 +1,613 @@
+/********************* Default-CSS *********************/
+@font-face {
+  font-family: "BookAntiqua";
+  src: url("../fonts/BookAntiqua.eot");
+  src: url("../fonts/BookAntiqua.eot") format("embedded-opentype"), url("../fonts/BookAntiqua.woff2") format("woff2"),
+    url("../fonts/BookAntiqua.woff") format("woff"), url("../fonts/BookAntiqua.ttf") format("truetype"),
+    url("../fonts/BookAntiqua.svg#BookAntiqua") format("svg");
+}
+@font-face {
+  font-family: "MontserratMedium";
+  src: url("../fonts/MontserratMedium.eot");
+  src: url("../fonts/MontserratMedium.eot") format("embedded-opentype"),
+    url("../fonts/MontserratMedium.woff2") format("woff2"), url("../fonts/MontserratMedium.woff") format("woff"),
+    url("../fonts/MontserratMedium.ttf") format("truetype"),
+    url("../fonts/MontserratMedium.svg#MontserratMedium") format("svg");
+}
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../fonts/MontserratRegular.eot");
+  src: url("../fonts/MontserratRegular.eot") format("embedded-opentype"),
+    url("../fonts/MontserratRegular.woff2") format("woff2"), url("../fonts/MontserratRegular.woff") format("woff"),
+    url("../fonts/MontserratRegular.ttf") format("truetype"),
+    url("../fonts/MontserratRegular.svg#MontserratRegular") format("svg");
+}
+@font-face {
+  font-family: "BKANT_1";
+  src: url("../fonts/BKANT_1.eot");
+  src: url("../fonts/BKANT_1.eot") format("embedded-opentype"), url("../fonts/BKANT_1.woff2") format("woff2"),
+    url("../fonts/BKANT_1.woff") format("woff"), url("../fonts/BKANT_1.ttf") format("truetype"),
+    url("../fonts/BKANT_1.svg#BKANT_1") format("svg");
+}
+/*font-bol*/
+@font-face {
+  font-family: "ANTQUAB_1";
+  src: url("../fonts/ANTQUAB_1.eot");
+  src: url("../fonts/ANTQUAB_1.eot") format("embedded-opentype"), url("../fonts/ANTQUAB_1.woff2") format("woff2"),
+    url("../fonts/ANTQUAB_1.woff") format("woff"), url("../fonts/ANTQUAB_1.ttf") format("truetype"),
+    url("../fonts/ANTQUAB_1.svg#ANTQUAB_1") format("svg");
+}
+/* itali font*/
+@font-face {
+  font-family: "ANTQUABI_1";
+  src: url("../fonts/ANTQUABI_1.eot");
+  src: url("../fonts/ANTQUABI_1.eot") format("embedded-opentype"), url("../fonts/ANTQUABI_1.woff2") format("woff2"),
+    url("../fonts/ANTQUABI_1.woff") format("woff"), url("../fonts/ANTQUABI_1.ttf") format("truetype"),
+    url("../fonts/ANTQUABI_1.svg#ANTQUABI_1") format("svg");
+}
+@font-face {
+  font-family: "ANTQUAI_1";
+  src: url("../fonts/ANTQUAI_1.eot");
+  src: url("../fonts/ANTQUAI_1.eot") format("embedded-opentype"), url("../fonts/ANTQUAI_1.woff2") format("woff2"),
+    url("../fonts/ANTQUAI_1.woff") format("woff"), url("../fonts/ANTQUAI_1.ttf") format("truetype"),
+    url("../fonts/ANTQUAI_1.svg#ANTQUAI_1") format("svg");
+}
+html body {
+  font-family: "BKANT_1";
+  margin: 0;
+  /* background: rgba(0, 0, 0, 0.05); */
+  background-color: #1918B2;
+  overflow-y: auto;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  padding: 0px;
+}
+.form-button-group {
+  display: flex;
+}
+.container {
+  /* width: 100%; */
+  /* max-width: 1540px; */
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  /* margin: 0 auto; */
+  /* position: relative; */
+  /* float: none; */
+}
+/********************* scroll Hide *********************/
+/********************* Default-CSS close *********************/
+.navbar.bg-change {
+  background-color: #d4a73b;
+  padding: 9px 0;
+  transition: 0.5s;
+}
+.navbar ul li {
+  margin-left: 64px;
+  font-family: "MontserratMedium";
+}
+/********************* Gapping *********************/
+.section-gapping {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+/********************* Gapping close *********************/
+header {
+  top: 0;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  transition: all 0.5s;
+  background-color: none;
+}
+header .navbar {
+  padding: 25px 0;
+  background: none;
+  transition: 0.5s;
+}
+.navbar .navbar-brand {
+  transition: all 0.5s;
+}
+.navbar-nav .nav-link {
+  padding: 0 15px;
+  font-family: "MontserratRegular";
+}
+html {
+  overflow: auto;
+}
+/********************* Header Close *******************/
+/********************* Header-Fixed *******************/
+.fixed .navbar .navbar-brand {
+  max-width: 150px;
+}
+/********************* Header-Fixed Close *******************/
+/********************* Content *******************/
+/********************* Content Close *******************/
+.banner {
+  position: relative;
+  /* height: 100vh;
+     background:url(../../assets/images/mainimage.png) no-repeat center;
+     background-size: 100%;
+    */
+}
+.fluid-img {
+  max-width: 100%;
+  width: auto;
+}
+.progressive-image {
+  height: 100vh;
+}
+
+.progressive-image1 {
+  height: 21vh;
+}
+.banner-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+}
+.banner-text h1 {
+  font-size: 2.7vmax;
+  line-height: 55px;
+  color: #636367;
+  font-family: "BKANT_1";
+  font-weight: bold;
+  text-align: center;
+  margin: 0px 0 30px;
+}
+.banner-text p {
+  letter-spacing: 1px;
+  line-height: 36px;
+  color: #2c281f;
+  font-family: "BKANT_1";
+  text-align: center;
+  opacity: 0.7;
+  font-size: 22px;
+}
+.btn-theme {
+  /* width: 249px;
+     */
+  /* height: 71px;
+     */
+  border-radius: 5px;
+  background-color: #d4a73b;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "ANTQUAB_1";
+  display: block;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.btn-theme:hover {
+  background: #000;
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+}
+.owl-testimonials .img-box {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.img-box img {
+  border-radius: 100%;
+}
+header .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 15px;
+}
+h2 {
+  font-size: 50px;
+  line-height: 45px;
+  color: white;
+  font-family: "ANTQUABI_1";
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+h4 {
+  font-size: 26px;
+  line-height: 81px;
+  color: #acacae;
+  font-family: "ANTQUAB_1";
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+h5 {
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  font-family: "ANTQUAB_1";
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: white;
+  font-family: "BookAntiqua";
+  /* opacity: 0.8; */
+}
+.navbar-nav li.active .nav-link,
+.navbar-nav li:hover .nav-link {
+  color: #d4a73b;
+}
+.bg-change .navbar-nav li.active .nav-link,
+.bg-change .navbar-nav li:hover .nav-link {
+  color: #000;
+}
+.btn-theme i {
+  display: inline-block;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+/********************* Footer *******************/
+/********************* Footer Close *******************/
+.h4-title {
+  margin: 60px auto;
+}
+.grid-box {
+  margin: 50px 0;
+  position: relative;
+}
+.page-title {
+  padding: 25px 0;
+  font-size: 48px;
+  font-family: Josefin Sans !important;
+  font-style: normal;
+}
+.upcoming-box {
+  max-width: 488px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  padding: 35px;
+  border-radius: 8px;
+  margin: 0 auto 150px;
+  background: #fff;
+}
+button.owl-dot {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+  margin: 0 3px;
+}
+.banner img {
+  display: block;
+  margin: 0 auto;
+}
+.owl-dot span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #c6c6c7;
+  line-height: 0px;
+  border-radius: 100%;
+}
+button.owl-dot.active span {
+  background: #d4a73b;
+}
+.upcoming-box h3 {
+  line-height: 45px;
+  font-weight: normal;
+}
+.star-rating i.fa {
+  color: #fca32f;
+  font-size: 31px;
+}
+/********************* Inner-Pages *******************/
+/********************* Inner-Pages Close *******************/
+.choose-box:after {
+  background: url(../../assets/images/line.png) no-repeat 0 0;
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  max-width: 1535px;
+  width: 100%;
+  max-height: 942px;
+  background-size: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.choose-box {
+  position: relative;
+  /*background: url(../../assets/images/line.png) no-repeat 0 0;
+    */
+  background-size: 100%;
+}
+.grid-box:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 2px solid #d4a73b;
+  border-radius: 100%;
+  top: -64px;
+  /* left: 0;
+     */
+  /* right: 0;
+     */
+}
+.grid-box.m-top2:after {
+  top: -52px;
+}
+.grid-box.m-top {
+  margin-top: 140px;
+}
+.grid-box.m-top2 {
+  margin-top: 141px;
+}
+.upcoming-box ul {
+  padding: 0px;
+  margin: 0px 0 20px;
+}
+.upcoming-box ul li {
+  display: block;
+  font-size: 18px;
+  color: #636e7b;
+  margin-bottom: 15px;
+}
+.upcoming-box ul li img {
+  margin-right: 8px;
+}
+.upcoming-section {
+  padding: 0 0 150px;
+}
+.no-image {
+  background: none !important;
+}
+
+.upcoming-box p {
+  color: #636e7b;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.upcoming-box a {
+  color: #d4a73b;
+  font-family: "ANTQUAB_1";
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.price {
+  text-align: right;
+  background: #f6edd8;
+  border-radius: 8px;
+  color: #d4a73b;
+  font-family: "ANTQUAB_1";
+  font-size: 15px;
+  margin-left: auto;
+  text-align: right;
+  float: right;
+  padding: 12px 25px;
+  font-size: 26px;
+}
+.overview {
+  color: #334868;
+  font-size: 30px;
+  margin: 15px 0;
+}
+p.testimonial.tex-center {
+  margin: 50px 0;
+}
+.owl-stage-outer h2 {
+  font-size: 50px;
+}
+.contact-form {
+  /* background:#fff; */
+  margin-bottom: 220px;
+  display: block;
+  padding: 15px 45px;
+}
+.contact-form h2 {
+  margin-bottom: 50px;
+}
+.form-control {
+  padding: 17px;
+  height: auto;
+  border-radius: 8px;
+  border-color: #c1cbd6ab;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 100%;
+  height: 170px;
+  resize: none;
+  border: 1px solid #c1cbd6ab;
+  border-radius: 8px;
+  padding: 15px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.btn-primary {
+  background: #d4a73b;
+  border-color: #d4a73b;
+  margin: 30px auto;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 11px 25px;
+  font-family: "ANTQUAB_1";
+}
+footer {
+  background: #010126;
+  padding: 50px 0;
+}
+ul.footer-nav li {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.footer-nav li a {
+  color: #fff;
+}
+.footer-nav li a:hover {
+  color: #d4a73b;
+}
+img.boy-cintact.img-fluid {
+  position: absolute;
+  left: 0px;
+}
+img.boy-cintact.img-fluid-block1 {
+  position: absolute;
+  left: 150px;
+  top: 30%;
+}
+img.boy-cintact.img-fluid-right-clock {
+  position: absolute;
+  right: 200px;
+}
+img.boy-cintact.img-fluid-right {
+  position: absolute;
+  right: 0px;
+  top: 30%;
+}
+img.boy-cintact.img-fluid-right-plant {
+  position: absolute;
+  right: 0px;
+  bottom: 10%;
+}
+
+img.boy-cintact.img-fluid-right-block1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 30%;
+}
+img.boy-cintact.img-fluid-right-block2 {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 20%;
+}
+
+footer h5 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+ul.footer-contact {
+}
+ul.footer-contact li {
+  margin-bottom: 20px;
+  display: block;
+}
+ul.footer-contact li a {
+  color: #fff;
+  opacity: 0.5;
+  letter-spacing: 0.5px;
+}
+.socail-icon li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.h4-title {
+  margin: 20px auto;
+  font-size: 21px;
+}
+.owl-stage-outer h2 {
+  font-size: 30px;
+}
+/************* ******** Owl *******************/
+/********************* Owl Close *******************/
+/********************* Fancy-box *******************/
+/********************* Fancy-box Close *******************/
+/*.fa.fa-long-arrow-right {
+     margin-left: 15px;
+     transition: all .5s;
+     animation: morebtn 2s infinite;
+}
+ .fa-long-arrow-right {
+     -webkit-animation: bounceright 0.3s alternate ease infinite;
+     animation: bounceright 0.3s alternate ease infinite;
+}
+ @keyframes morebtn {
+     0%{
+        margin-left:5px;
+        transition:all .5s
+    }
+     100%{
+        margin-left:20px;
+        transition:all .5s
+    }
+}
+*/
+button:focus {
+  outline: none !important;
+}
+.border {
+  /* position: absolute;
+     top: 91px;
+     border-top: 5px solid red;
+     width: 67%;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     z-index: 1;
+    */
+}
+body h3.footer-logo {
+  float: left;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: "ANTQUAB_1";
+  margin-right: 8px;
+}
+p.copy-right {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 14px;
+  margin-left: 22px;
+  display: inline-block;
+  line-height: 46px;
+}
+/*.border-left-box{
+     position: relative;
+}
+ .border-left-box:after {
+     border-width: 4px;
+     content: "";
+     width: 98%;
+     height: 116%;
+     position: absolute;
+     left: 0;
+     top: 90px;
+     border-radius: 271px;
+     border-style: solid;
+     border-color: red green green transparent;
+}
+ .border-left-box:before{
+     content: "";
+     width: 98%;
+     height: 116%;
+}
+*/
+
+.howit.page-title {
+  padding-bottom: 60px;
+}
